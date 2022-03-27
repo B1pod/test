@@ -78,10 +78,6 @@ function setBoardX(index) {
 }
 
 function cellClick(index) {
-    if (board[index] != emptyCell)
-    {
-     return; //do nothing
-    }
   const cell = document.getElementById(index);
   cell.innerText = "⭕";
   board[index - 1] = "o";
