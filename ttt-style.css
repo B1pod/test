@@ -1,0 +1,14 @@
+.wrapper {
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    height: 200px;
+    width: 200px;
+    grid-gap: 2px;
+    margin: auto;
+}
+
+.cell{
+    text-align: center;
+    background: rgb(55, 121, 88); 
+}
